@@ -4,11 +4,19 @@ import Bootloader from './Bootloader.js';
 const config = {
     title: "megaman intro",
     version: "v0.0.1",
-    width: 512,
-    height: 480,
     type: Phaser.AUTO,
-    parent: "container",
     pixelArt: true,
+    scale: {
+        parent: "container",
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.DOM.CENTER_BOTH,
+        width: 512,
+        height: 480, 
+        max: {
+            width: 512,
+            height: 480,
+        }
+    },
     physics: {
         default: "arcade",
         "arcade": {
