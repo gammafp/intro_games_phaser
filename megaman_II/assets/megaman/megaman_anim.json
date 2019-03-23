@@ -1,0 +1,20 @@
+{
+    "anims": [
+        {
+            "key": "idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "megaman",
+                    "frame": "megaman_24_0"
+                },
+                {
+                    "key": "megaman",
+                    "frame": "megaman_24_1"
+                }
+            ]
+        }
+    ]
+}

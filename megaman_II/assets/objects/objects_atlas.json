@@ -1,0 +1,47 @@
+{
+    "frames": [
+        {
+            "filename": "background",
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 161,
+                "h": 231
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "edificio",
+            "frame": {
+                "x": 1,
+                "y": 234,
+                "w": 103,
+                "h": 48
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "edificio_top",
+            "frame": {
+                "x": 1,
+                "y": 284,
+                "w": 103,
+                "h": 96
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
