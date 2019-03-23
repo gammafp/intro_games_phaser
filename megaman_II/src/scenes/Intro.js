@@ -56,7 +56,7 @@ class Intro extends Phaser.Scene {
 
         const menuTextArray = [
             '  NORMAL\n',
-            '  DIFICULT\n\n',
+            '  DIFFICULT\n\n',
             'PRESS START'
         ];
 
